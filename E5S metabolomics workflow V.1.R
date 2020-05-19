@@ -126,6 +126,7 @@ uvf <- function(x){
     xx <- x[,-1]
     # normality test
     norm.test <- apply(xx, 2, function(t) shapiro.test(t)$p.value)
+    #norm.test <- apply(xx, 2, function(t) cwhmisc::shapiro.wilk.test(t)$p) # use cwhmisc package function in error case
     # homogeneity test
     homog.test <- apply(xx, 2, function(t) bartlett.test(t,g = x[,1])$p.value)
     return(as.data.frame(cbind(norm.test, homog.test)))}
