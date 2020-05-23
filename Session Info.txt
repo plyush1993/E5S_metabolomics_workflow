@@ -1,0 +1,35 @@
+R version 3.6.1 (2019-07-05)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 7 x64 (build 7601) Service Pack 1
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=English_United States.1252  LC_CTYPE=English_United States.1252   
+[3] LC_MONETARY=English_United States.1252 LC_NUMERIC=C                          
+[5] LC_TIME=English_United States.1252    
+
+attached base packages:
+[1] parallel  stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] cowplot_1.0.0     ggsci_2.9         RSEIS_3.9-0       doParallel_1.0.15 iterators_1.0.12 
+ [6] foreach_1.4.8     data.table_1.12.8 rafalib_1.0.0     FactoMineR_2.3    factoextra_1.0.6 
+[11] tuple_0.4-02      caret_6.0-86      ggplot2_3.3.0     lattice_0.20-40  
+
+loaded via a namespace (and not attached):
+ [1] tidyselect_1.0.0     purrr_0.3.3          reshape2_1.4.3       splines_3.6.1       
+ [5] colorspace_1.4-1     vctrs_0.2.4          generics_0.0.2       stats4_3.6.1        
+ [9] survival_3.1-11      prodlim_2019.11.13   rlang_0.4.5          ModelMetrics_1.2.2.2
+[13] pillar_1.4.3         glue_1.4.0           withr_2.1.2          RColorBrewer_1.1-2  
+[17] lifecycle_0.2.0      plyr_1.8.6           lava_1.6.7           stringr_1.4.0       
+[21] timeDate_3043.102    munsell_0.5.0        gtable_0.3.0         recipes_0.1.10      
+[25] codetools_0.2-16     leaps_3.1            class_7.3-15         fansi_0.4.1         
+[29] Rcpp_1.0.4.6         flashClust_1.01-2    scales_1.1.0         ipred_0.9-9         
+[33] scatterplot3d_0.3-41 RPMG_2.2-3           Rwave_2.4-8          stringi_1.4.6       
+[37] dplyr_0.8.5          ggrepel_0.8.2        grid_3.6.1           cli_2.0.2           
+[41] tools_3.6.1          magrittr_1.5         tibble_3.0.0         cluster_2.1.0       
+[45] crayon_1.3.4         pkgconfig_2.0.3      ellipsis_0.3.0       MASS_7.3-51.5       
+[49] Matrix_1.2-18        pROC_1.16.2          lubridate_1.7.4      gower_0.2.1         
+[53] assertthat_0.2.1     rstudioapi_0.11      R6_2.4.1             rpart_4.1-15        
+[57] nnet_7.3-13          nlme_3.1-145         compiler_3.6.1    
