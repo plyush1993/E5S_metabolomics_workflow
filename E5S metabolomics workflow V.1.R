@@ -221,6 +221,7 @@ uvf <- function(x){
 
 ds <- uvf(dsr_hm)
 colnames(ds)[1] <- "Label"
+ds$Label <- as.factor(ds$Label)                           
 
 ####################################################################################
 # 3rd step: Machine Learning + Stable Feature Extraction (ML+SFE)
