@@ -12,3 +12,7 @@ To simplify the calculations, name the data tables according to:
 - ds after ML+SFE (ds_d.csv)
 - ds_d after RFE (ds_rfe.csv)
 - raw data after UVF+MVI (ds_raw_ds.csv)
+
+Ref:
+Plyushchenko Ivan, et al. "An approach for feature selection with data modelling in LC-MS metabolomics." Analytical Methods 12.28 (2020): 3582-3591.
+https://pubs.rsc.org/en/content/articlelanding/2020/AY/D0AY00204F#!divAbstract 
