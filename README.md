@@ -16,3 +16,7 @@ To simplify the calculations, name the data tables according to:
 Ref:
 Plyushchenko Ivan, et al. "An approach for feature selection with data modelling in LC-MS metabolomics." Analytical Methods 12.28 (2020): 3582-3591.
 https://pubs.rsc.org/en/content/articlelanding/2020/AY/D0AY00204F#!divAbstract 
+
+Dataset Ref:
+Metabolomics Workbench project PR000857, study ST001271
+https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Project&ProjectID=PR000857 
