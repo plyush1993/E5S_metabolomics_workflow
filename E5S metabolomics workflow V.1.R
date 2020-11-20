@@ -313,7 +313,7 @@ set.seed(1234)
 subsets <- c(1:(ncol(ds_d)-1))
 #ctrl_rfe <- rfeControl(functions = rfFuncs,method = "repeatedcv",number = 5, repeats = 5,verbose = FALSE)
 ctrl_rfe <- rfeControl(functions = nbFuncs,method = "repeatedcv",number = 5, repeats = 3,verbose = FALSE)
-rfe <- rfe(ds_d[,-1],ds_d[,1], sizes = subsets, metric = "Accuracy", rfeControl = ctrl_rfe)
+rfe <- rfe(ds_d[,-1],ds_d[,1], sizes = subsets, metric = "Accuracy", rfeControl = ctrl_rfe) # if Error in {: task 1 failed - "Not all variable names used in object found in newdata" or smth simillar - try install klaR package ver. 0.6-14 
 rfe_vi <- rfe[["optVariables"]]
 ds_rfe <- data.frame(cbind(as.character(ds[,1]), ds[, rfe_vi]))
 
@@ -389,10 +389,10 @@ colnames(vars_roc) <- c("# of features","mean AUROC")
 vars_roc
 
 # about datasets
-# ds_d after RFE (ds_rfe)
+# ds_d after RFE (ds_rfe)                   
 ds_rfe <-as.data.frame(fread(input = "ds_rfe.csv", header=T))
 rownames(ds_rfe) <- ds_rfe[,1]
-ds_rfe <- ds_rfe[,-1]
+ds_rfe <- ds_rfe[,-1]    
 colnames(ds_rfe)[1] <- c("Label")
 
 # final table with AUROC calculations & # of features (by ds_rfe)
