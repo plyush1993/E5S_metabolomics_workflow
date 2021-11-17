@@ -16,6 +16,10 @@ To simplify the calculations, name the data tables according to:
 ## Citation:
 > [Plyushchenko Ivan, et al. "An approach for feature selection with data modelling in LC-MS metabolomics." Analytical Methods 12.28 (2020): 3582-3591.](https://pubs.rsc.org/en/content/articlelanding/2020/ay/d0ay00204f#!divAbstract)
 
+<p align="center">
+  <a href="https://www.scimagojr.com/journalsearch.php?q=19700175229&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img border="0" src="https://www.scimagojr.com/journal_img.php?id=19700175229" alt="SCImago Journal &amp; Country Rank" width="150" height="150" /></a>
+</p>
+
 ## Dataset Ref:
 > Metabolomics Workbench [project PR000857, study ST001271](https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Project&ProjectID=PR000857)
 
