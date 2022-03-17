@@ -24,4 +24,4 @@ To simplify the calculations, name the data tables according to:
 > Metabolomics Workbench [project PR000857, study ST001271](https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Project&ProjectID=PR000857)
 
 ## Contact:
-Please send any comment, suggestion or question you may have to the author (Mr. Ivan Plyushchenko), email: plyushchenko.ivan@gmail.com.
+Please send any comment, suggestion or question you may have to the author (Dr. Ivan Plyushchenko), email: plyushchenko.ivan@gmail.com.
