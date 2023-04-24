@@ -22,11 +22,10 @@ library(ggplot2)
 # stop parallel processing
 stopCluster(cl)
 stopImplicitCluster()
-registerDoSEQ()
 
 # start parallel processing
-fc <- as.numeric(detectCores(logical = F))
-cl <- makePSOCKcluster(fc+1)
+fc <- as.numeric(detectCores(logical = T))
+cl <- makePSOCKcluster(fc-1)
 registerDoParallel(cl)
 
 ##################################################################################
