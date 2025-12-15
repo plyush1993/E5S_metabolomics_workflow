@@ -1,6 +1,8 @@
 # E5S_metabolomics_workflow.R
 Easy 5 Steps metabolomics workflow
 
+<img src="https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D0AY90098B&imageInfo.ImageIdentifier.Year=2020" align="right" width="150" height="200">
+
 E5S metabolomics workflow.R was used for fully processing peak table in .csv format. All .csv files were placed in a working directory, each first column - sample name, second - "Label", other - numeric values or NA. Row and column names should be presented.
 
 ds_raw.csv is data table of own dataset after integration and HM MVI.
